@@ -38,11 +38,6 @@ html {
   /* scroll-snap-align:start; scroll-snap-stop:always; scroll-behavior: smooth !important; */
 }
 
-/*  */
-.you {width: 100%; background-color: #000; color: #fff; font-size: 250px; text-align: center; font-weight: bold; position: relative;}
-.youtxt {padding-top: 200px;}
-.you p { position: relative;}
-
 /* 네브 */
 .nav {
   position: fixed;
@@ -68,6 +63,7 @@ html {
   font-size: 1.75rem;
   color: #fff;
   color: #ccccff;
+  font-weight: bold;
 }
 .nav-inner li:hover a {
   color: #6a5acd;
@@ -155,7 +151,8 @@ html {
   transition: opacity 0.3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  font: normal 400 20px/1 sans-serif;
+  /* font: normal 400 20px/1 sans-serif; */
+  font-family: "Diphylleia", sans-serif;
 }
 .scroll a:hover {
   color: #6a5acd;
@@ -219,7 +216,9 @@ html {
 }
 .pro-main-text {
   position: relative;
-  font-family: "Oleo Script", serif;
+  /* font-family: "Oleo Script", serif; */
+  font-family: "Diphylleia", sans-serif;
+  font-weight: bold;
 }
 .pro-main-text span {
   position: relative;
@@ -496,25 +495,4 @@ html {
 /* etc. */
 #topbtn {
   color: #4d4dff;
-}
-
-
-/* 스와이퍼 */
-.swiper {
-  width: 100%;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.swiper-slide {
-  height: calc((100% - 30px) / 2) !important;
-
-  /* Center slide text vertically */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  font-size: 18px;
-  text-align: center;
 }
