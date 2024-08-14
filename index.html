@@ -33,6 +33,9 @@
   <meta name="champion" content="박보람" />
   <!-- 메타 끝 -->
 
+  <!-- 제이쿼리 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <!-- 기본 -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/st.css">
@@ -52,6 +55,7 @@
 </head>
 
 <body>
+
   <!-- 네비 -->
   <header>
     <nav class="nav" id="home">
@@ -64,11 +68,17 @@
     </nav>
   </header>
 
+    <!-- 첨부 -->
+<div class="you section" id="you">
+  <div class="youtxt">  <p>i say 박<br>
+    you say 보람</p></div>
+  </div>
+
   <!-- 첫번째 페이지 -->
   <div class="home section" id="isay">
     <div class="home-inner">
       <div class="home-neon">
-        <p>Ready to run</p>
+        <a href="#you"><p>Ready to run</p></a>
       </div>
       <div class="home-txt">
         <span>design portfolio</span>
@@ -79,6 +89,8 @@
     </div>
     </div>
   </div>
+
+
 
   <!-- 두번째페이지 -->
   <div class="pro section" id="profile">

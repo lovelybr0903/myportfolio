@@ -23,16 +23,3 @@ $(function () {
 function tissueImg() {
   document.getElementById("main-img-01").src = "img/mainimg4.gif";
 }
-
-//
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  grid: {
-    rows: 2,
-  },
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
