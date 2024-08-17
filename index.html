@@ -33,6 +33,10 @@
   <meta name="champion" content="박보람" />
   <!-- 메타 끝 -->
 
+  <!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
   <!-- 제이쿼리 -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -48,9 +52,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Dongle&family=Jua&family=Milonga&family=Noto+Sans+KR:wght@100..900&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
 <!-- 폰트 끝 -->
 
-<!-- Swiper -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- 폰트어썸 -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
 
 </head>
 
@@ -68,7 +71,7 @@
     </nav>
   </header>
 
-  <!-- 첫번째 페이지 -->
+  <!-- 메인 페이지 -->
   <div class="home section" id="isay">
     <div class="home-inner">
       <div class="home-neon">
@@ -84,7 +87,7 @@
     </div>
   </div>
 
-  <!-- 두번째페이지 -->
+  <!-- 프로필 페이지 -->
   <div class="pro section" id="profile">
     <div class="pro-inner">
       <div class="pro-inner-main">
@@ -94,17 +97,17 @@
           <span>this!</span>
         </div>
         <div class="pro-img">
-          <img src="img/me.png" alt="me" title="안녕하세요 근면성실 박근성입니다.">
-        </div>
+          <a href="https://open.kakao.com/o/sKSyx7Ig"><img src="img/me.png" alt="me" title="안녕하세요 근면성실 박근성입니다.">
+            <p><br><b>⤹</b> KAKAO<br>OPEN TALK</p></a>
+        </div>        
       </div>
       <div class="pro-box">
           <div class="pro-txet-title">
             <p>"늦게 피어난 꽃이<Br>가장 오래 피어있습니다."</p>
           </div>
           <div class="pro-txet">
-            <p><b>근</b>면·<b>성</b>실<b> 박근성</b>입니다.</p> 
-            <p>열정적인 신입의 자세로<br>끊임없이 배움을 갈구하는<Br>
-            웹디자이너입니다.</p>
+            <p>안녕하세요. <br><b>근</b>면·<b>성</b>실<b> 박근성</b>입니다.</p> 
+            <p>열정적인 신입의 자세로 끊임없이 <br>배움을 갈구하는 웹디자이너입니다.</p>
           </div>
           <div class="pro-txet-title">
             <p>· skill tool ·</p>
@@ -129,309 +132,102 @@
     </div>
   </div>
 
-  <!-- 세번째페이지 -->
-  <div class="por section" id="portfolio">
-    <div class="monitor-box">
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/3a8106395f1248c59fb4e86b83455d3b?pvs=4"
-              >
-                <img src="img/thumbega.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>웹사이트-비거니티</p>
-              </div>
-            </div>
-          </div>
+  <!-- 포트폴리오 페이지 -->
+  <div class="swiper port section" id="portfolio">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/3a8106395f1248c59fb4e86b83455d3b?pvs=4"><img src="img/thumbega.jpg" alt=""><br>
+          협업) 웹사이트 - 비거니티</a>
         </div>
-      </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/28800d8c2e38455d825c2ed12a6e6fe2?pvs=4"
-              >
-                <img src="img/thumhiki.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>앱디자인-히키모드</p>
-              </div>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/28800d8c2e38455d825c2ed12a6e6fe2?pvs=4"><img src="img/thumhiki.jpg" alt=""><br>
+          협업) 앱디자인 - 히키모드</a>
         </div>
-      </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/3ce9f9d45c7047b888b08a09f794ba24?pvs=4"
-              >
-                <img src="img/thumtou.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>리디자인-통영관광</p>
-              </div>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/3ce9f9d45c7047b888b08a09f794ba24?pvs=4"><img src="img/thumtou.jpg" alt=""><br>
+          리디자인 - 통영관광</a>
         </div>
-      </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/fffcfe3c097e806fae98ca305728f97e?pvs=4"
-              >
-                <img src="img/thumdiz.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>리디자인-디즈니 랜드</p>
-              </div>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/fffcfe3c097e806fae98ca305728f97e?pvs=4"><img src="img/thumdiz.jpg" alt=""><br>
+          리디자인 - 디즈니랜드</a>
         </div>
-      </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/333b57ba5a1e4dfd8a2f430cd040dd7f?pvs=4"
-              >
-                <img src="img/thumwell.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>자체웹사이트디자인</p>
-              </div>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/333b57ba5a1e4dfd8a2f430cd040dd7f?pvs=4"><img src="img/thumwell.jpg" alt=""><br>
+          브랜드디자인 - 웰헬시펫팬트리</a>
         </div>
-      </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/fffcfe3c097e80398debe0b4086db1a5?pvs=4"
-              >
-                <img src="img/thumbook.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>자체앱디자인-북리프</p>
-              </div>
-            </div>
-          </div>
+        <div class="swiper-slide">
+          <a href="https://lovelybr0903.notion.site/fffcfe3c097e80398debe0b4086db1a5?pvs=4"><img src="img/thumbook.jpg" alt=""><br>
+          자체앱디자인 - 북리프</a>
         </div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/24-1e14310825c945fcab08f7ecaf1f1907?pvs=4"
-              >
-                <img src="img/thum24.jpeg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>카페24디자인-단잠</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <div class="swiper-pagination"></div>
+
+      <!-- 스크롤버튼 -->
+      <div class="scroll2">
+        <a href="#portfolio2"><span></span>Scroll</a>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/2308f3b56b7345b68b2176f739fc666d?pvs=4"
-              >
-                <img src="img/thumbon.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>포스터디자인-본죽</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  </div>
+
+  <!-- 포트폴리오 페이지 2 -->
+
+  <div class="swiper port section" id="portfolio2">
+    <div class="port-text">---</div>    
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/24-1e14310825c945fcab08f7ecaf1f1907?pvs=4"><img src="img/thum24.jpeg" alt=""><br>
+        카페24 - 단잠</a>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://well-br.vercel.app/"
-              >
-                <img src="img/thumpet.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>상세페이지-펫사료</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/44fdaa78a82a4c859d51c09b4cc79396?pvs=4"><img src="img/thumpet.jpg" alt=""><br>
+        상세페이지 - 나우프레시</a>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/0bf7637400454f4c857aa967bbddf1ec?pvs=4"
-              >
-                <img src="img/thumcju.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>상세페이지-청미청</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/2308f3b56b7345b68b2176f739fc666d?pvs=4"><img src="img/thumbon.jpg" alt=""><br>
+        포스터디자인 - 본죽</a>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/fffcfe3c097e8026ae23c482ec751f41?pvs=4"
-              >
-                <img src="img/thumzill.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>상세페이지-면도기</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/fffcfe3c097e8026ae23c482ec751f41?pvs=4"><img src="img/thumzill.jpg" alt=""><br>
+        상세페이지 - 질레트</a>
       </div>
-      <div class="monitor-container">
-        <div class="monitor-frame">
-          <div class="monitor-screen">
-            <div class="hover-image">
-              <a
-                href="https://lovelybr0903.notion.site/61f1582e7780469e8c30a0e56f5c67bd?pvs=4"
-              >
-                <img src="img/thumban.jpg" alt="Inside Image" />
-              </a>
-              <div class="image-description">
-                <p>인스타배너</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/0bf7637400454f4c857aa967bbddf1ec?pvs=4"><img src="img/thumcju.jpg" alt=""><br>
+        상세페이지 - 청미청</a>
       </div>
-    </div>
-    <div class="scroll">
+      <div class="swiper-slide">
+        <a href="https://lovelybr0903.notion.site/61f1582e7780469e8c30a0e56f5c67bd?pvs=4"><img src="img/thumban.jpg" alt=""><br>
+        인스타배너&카드뉴스</a>
+      </div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+      </div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <div class="swiper-pagination"></div>
+
+    <!-- 스크롤버튼 -->
+    <div class="scroll2">
       <a href="#dear"><span></span>Scroll</a>
     </div>
   </div>
 
-  <!-- 네번째페이지 -->
+  <!-- 마지막 페이지 -->
   <div class="dear section" id="dear">
     <div class="dear-img">
       <p class="result"></p>
-      <img id="main-img-01" src="img/mainimg1.png" alt="mainimg1">
+      <img id="main-img-01" src="img/mainimg1.png" alt="mainimg1" title="하단버튼을클릭해주세요">
       <div class="btn" onclick="tissueImg()">티슈<span>(저)</span>를 뽑아주세요</div>
+      <!-- <div class="hand"><i class="fa-regular fa-hand-point-up"></i></div> -->
+      <img class="hand" src="img/hand.png">
     </div>
       <div class="thx">
         <span>귀한 시간 내주셔서 감사합니다.</span>
       </div>
 
-<a id="topbtn" href="#" onclick="window.scrollTo(0,0);" title="top">TOP ↾</a>
-
+<a id="topbtn" href="#" onclick="window.scrollTo(0,0);">TOP ↾</a>
   
-  <script>
-    // 타이핑 효과 설정
-    String.prototype.toKorChars = function () {
-      let cCho = ["ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ", "ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ",],
-        cJung = ["ㅏ","ㅐ","ㅑ","ㅒ","ㅓ","ㅔ","ㅕ","ㅖ","ㅗ","ㅘ","ㅙ","ㅚ","ㅛ","ㅜ","ㅝ","ㅞ","ㅟ","ㅠ","ㅡ","ㅢ","ㅣ",],
-        cJong = ["","ㄱ","ㄲ","ㄳ","ㄴ","ㄵ","ㄶ","ㄷ","ㄹ","ㄺ","ㄻ","ㄼ","ㄽ","ㄾ","ㄿ","ㅀ","ㅁ","ㅂ","ㅄ","ㅅ","ㅆ","ㅇ","ㅈ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ",],
-        cho, jung, jong;
-    
-      let str = this,
-        cnt = str.length,
-        chars = [],
-        cCode;
-      for (let i = 0; i < cnt; i++) {
-        cCode = str.charCodeAt(i);
-        if (cCode == 32) {
-          chars.push(" ");
-          continue;
-        }
-        // 한글이 아닌 경우
-        if (cCode < 0xac00 || cCode > 0xd7a3) {
-          chars.push(str.charAt(i));
-          continue;
-        }
-        cCode = str.charCodeAt(i) - 0xac00;
-    
-        jong = cCode % 28; // 종성
-        jung = ((cCode - jong) / 28) % 21; // 중성
-        cho = ((cCode - jong) / 28 - jung) / 21; // 초성
-    
-        chars.push(cCho[cho]);
-        chars.push(String.fromCharCode(44032 + cho * 588 + jung * 28));
-        if (cJong[jong] !== "") {
-          chars.push(String.fromCharCode(44032 + cho * 588 + jung * 28 + jong));
-        }
-      }
-      return chars;
-    };
-    
-    // 타이핑할 문장
-    let result = `끝으로 드릴 말씀이 있어요...`
-    let typeing1 = [];
-    result = result.split(""); 
-    
-    // 각 글자를 초성, 중성, 종성으로 나눔
-    for (let i = 0; i < result.length; i++) {
-      typeing1[i] = result[i].toKorChars();
-    }
-    
-    // 출력할 엘리먼트 요소 가져옴
-    let resultDiv = document.getElementsByClassName("result")[0];
-    
-    let text = "";
-    let i = 0;
-    let j = 0;
-    
-    // 총 글자 수
-    let imax = typeing1.length;
-    
-    // 타이핑 함수
-    function typi() {
-      if (i <= imax - 1) {
-        // 각 글자가 초성 중성 종성 순서대로 추가되도록
-        let jmax = typeing1[i].length;
-        resultDiv.innerHTML = text + typeing1[i][j];
-        j++;
-        if (j == jmax) {
-          text += typeing1[i][j - 1];
-          // 초성 중성 종성 순서대로 출력된 글자는 저장 (다음 글자와 이어붙이기 위해서)
-          i++;
-          j = 0;
-        }
-      } else {
-        clearInterval(inter); // 타이핑 완료 후 반복 종료
-        setTimeout(resetTyping, 1000); // 1초 후에 타이핑 효과 반복
-      }
-    }
-    
-    // 타이핑 효과 초기화 및 반복 함수
-    function resetTyping() {
-      text = "";
-      i = 0;
-      j = 0;
-      // resultDiv.innerHTML = ""; // 화면의 텍스트 초기화
-      inter = setInterval(typi, 100); // 타이핑 효과 재시작
-    }
-    
-    // 타이핑 효과 시작
-    let inter = setInterval(typi, 100);
-    </script>
 </body>
 </html>
