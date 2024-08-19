@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Swiper
   let swiper = new Swiper(".swiper", {
+    slidesPerView: "auto",
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -9,11 +10,19 @@ document.addEventListener("DOMContentLoaded", function () {
       delay: 3000,
       disableOnInteraction: false,
     },
-    slidesPerView: 3,
-    spaceBetween: 20,
+    spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
     },
   });
 
