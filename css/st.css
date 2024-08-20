@@ -736,6 +736,10 @@ flex-direction: column; font-weight: bold;}
   .section {
     height: 100vh;
   }
+  .scroll {display: none;}
+  .scroll2 {display: none;}
+  .nav {margin-top: 0;}
+
   .nav-inner {
     width: 100%;
   }
