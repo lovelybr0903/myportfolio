@@ -731,8 +731,8 @@ flex-direction: column; font-weight: bold;}
   }
 }
 
-/* 브레이크포인트: 320px */
-@media screen and (max-width: 320px) {
+/* 브레이크포인트: 360px */
+@media screen and (max-width: 360px) {
   .section {
     height: 100vh;
   }
