@@ -640,7 +640,6 @@ flex-direction: column; font-weight: bold;}
     margin-left: 0;
   }
   .pro-box {
-    margin-top: 200px;
     margin-left: 100px;
     text-align: center;
   }
@@ -694,7 +693,7 @@ flex-direction: column; font-weight: bold;}
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 200px 0 0 200px !important;
+    margin: -80px 0 0 200px !important;
   }
   .pro-inner-main {
     position: relative;
@@ -703,24 +702,34 @@ flex-direction: column; font-weight: bold;}
     display: block;
     width: 200px;
     height: 200px;
+    margin-top: -30px;
   }
+  .pro-img p {font-size: 0.75rem;}
   .pro-main-text span {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .pro-box {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 0;
     text-align: center;
   }
   .pro-txet-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
 
+  .pro-txet p {font-size: 1rem;}
+  .pro-txet p:first-child {font-size: 1rem;}
   .pro-tool img {
     width: 50px;
     height: 50px;
   }
+  #main-img-01 {width: 250px; height: 250px;}
+  .btn {font-size: 1rem; padding: 5px; top: 10px;}
+  .btn span {font-size: 0.75rem;}
+  .thx span {font-size: 2rem;}
+  .hand {scale: 30%;}
+  .result{font-size: 1.5rem;}
   .swiper-slide {
     width: 40% !important;
     font-size: 0.75rem;
@@ -729,85 +738,4 @@ flex-direction: column; font-weight: bold;}
     width: 200px !important;
     height: 150px !important;
   }
-}
-
-/* 브레이크포인트: 360px */
-@media screen and (max-width: 360px) {
-  .section {
-    height: 100vh;
-  }
-  .scroll {display: none;}
-  .scroll2 {display: none;}
-  .nav {margin-top: 0;}
-
-  .nav-inner {
-    width: 70%;
-  }
-  .nav-inner a {
-    font-size: 0.75rem;
-  }
-
-  .home-neon {
-    font-size: 1.5rem;
-  }
-  .home-txt {
-    font-size: 0.75rem;
-  }
-  #profile {
-    position: relative;
-    margin-left: 0;
-  }
-  .pro-inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px 0 0 10px !important;
-  }
-  .pro-main-text span {font-size: 1.5rem; padding: 10px}
-
-  .pro-img {margin-top: 5px;}
-  
-  .pro-inner-main {
-    position: relative;
-  }
-  .pro-img img {
-    display: block;
-    width: 100px;
-    height: 100px;
-  }
-  .pro-img p {font-size: 0.75rem;}
-  .pro-main-text span {
-    font-size: 2.5rem;
-  }
-  .pro-box {
-    margin-left: 0;
-    text-align: center;
-  }
-  .pro-txet-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  .pro-txet {font-size: 0.75rem;}
-  
-  .pro-txet p:first-child {font-size: 0.75rem;}
-  .pro-tool img {
-    width: 20px;
-    height: 20px;
-  }
-  .swiper-slide {
-    width: 100% !important;
-    font-size: 0.75rem;
-  }
-  .swiper-slide img {
-    width: 200px !important;
-    height: 150px !important;
-    margin-left: 0;
-  }
-  .result {font-size: 1rem;}
-  #main-img-01 {width: 200px; height: 200px; object-fit: contain;}
-  .btn{padding: 5px; font-size: 1rem;}
-  .hand {display: none;}
-  .btn span {font-size: 0.75rem;}
-  .thx span {font-size: 1rem;}
 }
