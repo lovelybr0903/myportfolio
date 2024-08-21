@@ -741,11 +741,12 @@ flex-direction: column; font-weight: bold;}
   .nav {margin-top: 0;}
 
   .nav-inner {
-    width: 100%;
+    width: 70%;
   }
   .nav-inner a {
     font-size: 0.75rem;
   }
+
   .home-neon {
     font-size: 1.5rem;
   }
@@ -803,7 +804,7 @@ flex-direction: column; font-weight: bold;}
     height: 150px !important;
     margin-left: 0;
   }
-  .result {display: none;}
+  .result {font-size: 1rem;}
   #main-img-01 {width: 200px; height: 200px; object-fit: contain;}
   .btn{padding: 5px; font-size: 1rem;}
   .hand {display: none;}
