@@ -732,7 +732,7 @@ flex-direction: column; font-weight: bold;}
   #main-img-01 {width: 250px; height: 250px;}
   .btn {font-size: 1rem; padding: 5px; top: 10px;}
   .btn span {font-size: 0.75rem;}
-  .thx span {font-size: 2rem;}
+  .thx span {font-size: 1.5rem;}
   .hand {scale: 30%;}
   .result{font-size: 1.5rem;}
   .swiper-slide {
@@ -740,8 +740,8 @@ flex-direction: column; font-weight: bold;}
     font-size: 0.75rem;
   }
   .swiper-slide img {
-    width: 200px !important;
-    height: 150px !important;
+    width: 150px !important;
+    height: 100px !important;
   }
   #scr {display: none;}
 }
